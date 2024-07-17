@@ -2,7 +2,7 @@ import Taro from '@tarojs/taro'
 
 let baseUrl
 // let envVer = Taro.getAccountInfoSync().miniProgram.envVersion
-let envVer = 'develop'
+let envVer = 'release'
 console.log(envVer)
 
 switch (envVer) {
