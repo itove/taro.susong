@@ -8,6 +8,10 @@ import geo from '../../icons/geo-alt-fill.svg'
 import phone from '../../icons/telephone-fill.svg'
 import Taro from '@tarojs/taro'
 
+function goto(link){
+  Taro.navigateTo({url: '/pages/' + link + '/index'})
+}
+
 function Card({title, desc, link, bgcolor}) {
   let color = ''
   if (bgcolor) {
@@ -18,7 +22,7 @@ function Card({title, desc, link, bgcolor}) {
     color: color
   }
   return (
-    <View className="card" onClick="" style={style}>
+    <View className="card" onClick={()=>{goto(link)}} style={style}>
       <View className="left">
         <View className="title">
           {title}
@@ -54,11 +58,11 @@ function Index() {
   return (
     <View className="p-1">
       <Image className="hero rounded" mode="widthFix" src={Hero} />
-      <Card title="诉讼服务" desc="在线立案、文书模板等" link="fuck_you"/>
-      <Card title="审执公开" desc="审判、执行环节公开可查的相关信息" link="fuck_you"/>
-      <Card title="本院特色" desc="安陆法院特色工作介绍" link="fuck_you"/>
-      <Card title="在线留言" desc="工作日24小时内回复" link="fuck_you"/>
-      <Card title="便民服务" desc="政务办事、民生服务等便民查询功能" link="fuck_you" />
+      <Card title="诉讼服务" desc="在线立案、文书模板等" link="susong" />
+      <Card title="审执公开" desc="审判、执行环节公开可查的相关信息" link="shenzhi" />
+      <Card title="本院特色" desc="安陆法院特色工作介绍" link="benyuan" />
+      <Card title="在线留言" desc="工作日24小时内回复" link="liuyan" />
+      <Card title="便民服务" desc="政务办事、民生服务等便民查询功能" link="bianmin" />
 
       <View className="bold">如有疑问 请联系郧西县人民法院</View>
       <List icon={phone} title="0719-8888888" desc="打电话" />
