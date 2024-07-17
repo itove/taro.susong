@@ -6,6 +6,8 @@ export default defineAppConfig({
     'pages/liuyan/index',
     'pages/bianmin/index',
     'pages/susong/index',
+    'pages/feedback/index',
+    'pages/contact/index',
   ],
   window: {
     backgroundTextStyle: 'light',
