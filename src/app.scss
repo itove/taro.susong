@@ -1,0 +1,66 @@
+.p-1{
+  padding: 16px;
+}
+.card{
+  color: #05363d;
+  padding: 22px 16px;
+  margin-bottom: 16px;
+  background: #9dcd5a;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left{
+    width: 80%;
+  }
+  .title{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .desc{
+    font-size: 15px;
+  }
+  .right{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    img{
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+.rounded{
+  border-radius: 5px;
+}
+.hero{
+  width: 100%;
+}
+.bold{
+  font-weight: bold;
+}
+.list{
+  font-size: 14px;
+  display: flex;
+  padding: 12px 0;
+  margin-bottom: 16px;
+  border-bottom: .5px solid #78828c21;
+  justify-content: space-between;
+  align-items: center;
+  .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(0,0,0,.65);
+    .icon{
+      width: 14px;
+      height: 14px;
+      fill: red;
+      margin-right: 8px;
+    }
+  }
+  .right{
+    color: #576b95;
+  }
+}
