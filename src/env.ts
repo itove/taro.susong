@@ -12,10 +12,10 @@ switch (envVer) {
     // baseUrl = 'https://192.168.122.1:8000/'
     break
   case 'trial':
-    baseUrl = 'https://www./'
+    baseUrl = 'https://susong.itove.com/'
     break
   case 'release':
-    baseUrl = 'https://www./';
+    baseUrl = 'https://susong.itove.com/'
     break
 }
 
