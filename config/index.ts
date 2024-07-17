@@ -1,5 +1,5 @@
 const config = {
-  projectName: 'taro.susong',
+  projectName: '诉讼一码通',
   date: '2024-7-17',
   designWidth: 375,
   deviceRatio: {
