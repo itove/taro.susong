@@ -19,9 +19,32 @@ function Index() {
     ]
   }
 
+  const test = () => {
+    console.log('fuck')
+  }
+
+  const style={
+    height: '20px',
+    width: '100%',
+
+  }
   return (
     <View className="p-1">
       <Image className="hero rounded" mode="widthFix" src={Env.imageUrl + 'hero.png'} />
+
+  <wx-open-launch-weapp
+    id="launch-btn"
+    username="gh_c81e8d0053c0"
+    appid="wx8ff37059ab8326d7"
+    path="/pages/index/index.html"
+  >
+<script type="text/wxtag-template">
+    <button style={style}>打开小程序</button>
+      <Card title="test" desc="test" onClick={test} />
+</script>
+</wx-open-launch-weapp>
+
+
       <Card title="诉讼服务" desc="在线立案、文书模板等" link="susong" />
       <Card title="审执公开" desc="审判、执行环节公开可查的相关信息" link="shenzhi" />
       <Card title="本院特色" desc="安陆法院特色工作介绍" link="benyuan" />

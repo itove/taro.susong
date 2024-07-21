@@ -14,5 +14,24 @@
 </head>
 <body>
   <div id="app"></div>
+  <script>
+    wx.config({
+      debug: true,
+      appId: '',
+      timestamp: '',
+      nonceStr: '',
+      signature: '',
+      jsApiList: [],
+      openTagList: ['wx-open-launch-weapp']
+    });
+
+    wx.ready(function () {
+      console.log('ready');
+    });
+
+    wx.error(function (res) {
+      console.log('error', res);
+    });
+  </script>
 </body>
 </html>
