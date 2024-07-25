@@ -1,6 +1,7 @@
 export default defineAppConfig({
   pages: [
     'pages/index/index',
+    'pages/index/webview',
     'pages/shenzhi/index',
     'pages/benyuan/index',
     'pages/bianmin/index',
