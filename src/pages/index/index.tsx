@@ -34,15 +34,15 @@ function Index() {
 
   <wx-open-launch-weapp
     id="launch-btn"
-    username="gh_c81e8d0053c0"
+    // username="gh_c81e8d0053c0"
     appid="wx8ff37059ab8326d7"
     path="/pages/index/index.html"
   >
-<script type="text/wxtag-template">
-    <button style={style}>打开小程序</button>
-      <Card title="test" desc="test" onClick={test} />
-</script>
-</wx-open-launch-weapp>
+  <script type="text/wxtag-template">
+  <button style={style}>打开小程序</button>
+  <Card title="test" desc="test" onClick={test} />
+  </script>
+  </wx-open-launch-weapp>
 
 
       <Card title="诉讼服务" desc="在线立案、文书模板等" link="susong" />
