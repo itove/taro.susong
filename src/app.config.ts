@@ -4,6 +4,7 @@ export default defineAppConfig({
     'pages/shenzhi/index',
     'pages/benyuan/index',
     'pages/bianmin/index',
+    'pages/bianmin/fuyuan',
     'pages/susong/index',
     'pages/feedback/index',
     'pages/contact/index',
