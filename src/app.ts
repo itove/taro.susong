@@ -15,7 +15,7 @@ function App(props) {
       console.log(res)
       const data = res.data
       wx.config({
-        debug: true,
+        // debug: true,
         appId: data.appId,
         timestamp: data.timestamp,
         nonceStr: data.nonceStr,
