@@ -53,7 +53,7 @@ function Index() {
 
       <Contact contact={contact} />
 
-      <Card title="联系人民法庭" desc="郧西县人民法院各人民法庭联系方式及地址导航" link="contact" color="#000000" bgcolor="#f4f4f4" />
+      <Card title="联系人民法庭" desc="郧西县人民法院各人民法庭联系方式及地址导航" link="contact" />
     </View>
   )
 }
