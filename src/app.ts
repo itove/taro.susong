@@ -23,11 +23,18 @@ function App(props) {
         jsApiList: [],
         openTagList: ['wx-open-launch-weapp']
       })
+
+      wx.ready(function () {
+        console.log('ready');
+      });
+
+      wx.error(function (res) {
+        console.log('error', res);
+      });
     })
     .catch(err => {
       console.log(err)
     })
-    // console.log(wx.config)
   }, [])
 
   // 对应 onShow
